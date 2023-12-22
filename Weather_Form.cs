@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Laverna_Test_1
@@ -20,6 +21,15 @@ namespace Laverna_Test_1
         private async void button_RefreshWeather_Click(object sender, EventArgs e)
         {
             string cityName    = richTextBox_NameOfCity.Text; // Инициализируется строчка в которой лежит название города
+
+            if (cityName.Any(char.IsDigit))
+            {
+                MessageBox.Show($"Error: NotFound");
+                label_Temperature.Text = "Temperature: ";
+                label_Description.Text = "Description: ";
+                label_WindSpeed.Text = "Wind Speed: ";
+                return;
+            }    
 
             var filePath = "Weather_Info.json"; // считываю информацию об ApiUrl и ApiKey с JSON файла, https://openweathermap.org/
 
