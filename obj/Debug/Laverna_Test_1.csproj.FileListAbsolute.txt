@@ -5,10 +5,10 @@ C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\bin\Debug\Newtonsoft.J
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\bin\Debug\Newtonsoft.Json.xml
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.csproj.AssemblyReference.cache
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.csproj.SuggestedBindingRedirects.cache
-C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.Main_Form.resources
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.Properties.Resources.resources
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.csproj.GenerateResource.cache
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.csproj.CoreCompileInputs.cache
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.csproj.CopyComplete
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.exe
 C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.pdb
+C:\Users\nampi\source\repos\Laverna_Test_1\Laverna_Test_1\obj\Debug\Laverna_Test_1.Weather_Form.resources

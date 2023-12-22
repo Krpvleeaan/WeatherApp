@@ -1,0 +1,4 @@
+{
+  "ApiUrl": "http://api.openweathermap.org/data/2.5/weather?q=city&appid=apiKey",
+  "ApiKey": "6983a538c04afaf357bdd92a3c04f986"
+}

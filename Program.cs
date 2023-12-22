@@ -16,7 +16,7 @@ namespace Laverna_Test_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_Form());
+            Application.Run(new Weather_Form());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Laverna_Test_1
 {
-    partial class Main_Form
+    partial class Weather_Form
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -40,7 +40,7 @@
             // 
             this.label_Enter_NameOfCity.AutoSize = true;
             this.label_Enter_NameOfCity.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Enter_NameOfCity.Location = new System.Drawing.Point(40, 20);
+            this.label_Enter_NameOfCity.Location = new System.Drawing.Point(40, 29);
             this.label_Enter_NameOfCity.Name = "label_Enter_NameOfCity";
             this.label_Enter_NameOfCity.Size = new System.Drawing.Size(295, 27);
             this.label_Enter_NameOfCity.TabIndex = 0;
@@ -48,17 +48,17 @@
             // 
             // richTextBox_NameOfCity
             // 
-            this.richTextBox_NameOfCity.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold);
-            this.richTextBox_NameOfCity.Location = new System.Drawing.Point(45, 72);
+            this.richTextBox_NameOfCity.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox_NameOfCity.Location = new System.Drawing.Point(45, 81);
             this.richTextBox_NameOfCity.Name = "richTextBox_NameOfCity";
-            this.richTextBox_NameOfCity.Size = new System.Drawing.Size(290, 57);
+            this.richTextBox_NameOfCity.Size = new System.Drawing.Size(290, 45);
             this.richTextBox_NameOfCity.TabIndex = 1;
             this.richTextBox_NameOfCity.Text = "";
             // 
             // button_RefreshWeather
             // 
             this.button_RefreshWeather.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold);
-            this.button_RefreshWeather.Location = new System.Drawing.Point(446, 72);
+            this.button_RefreshWeather.Location = new System.Drawing.Point(350, 72);
             this.button_RefreshWeather.Name = "button_RefreshWeather";
             this.button_RefreshWeather.Size = new System.Drawing.Size(272, 57);
             this.button_RefreshWeather.TabIndex = 2;
@@ -70,41 +70,46 @@
             // 
             this.label_Temperature.AutoSize = true;
             this.label_Temperature.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label_Temperature.Location = new System.Drawing.Point(68, 199);
+            this.label_Temperature.Location = new System.Drawing.Point(40, 165);
             this.label_Temperature.Name = "label_Temperature";
-            this.label_Temperature.Size = new System.Drawing.Size(0, 27);
+            this.label_Temperature.Size = new System.Drawing.Size(167, 27);
             this.label_Temperature.TabIndex = 3;
+            this.label_Temperature.Text = "Температура:";
             // 
             // label_Description
             // 
             this.label_Description.AutoSize = true;
             this.label_Description.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label_Description.Location = new System.Drawing.Point(73, 268);
+            this.label_Description.Location = new System.Drawing.Point(40, 224);
             this.label_Description.Name = "label_Description";
-            this.label_Description.Size = new System.Drawing.Size(0, 27);
+            this.label_Description.Size = new System.Drawing.Size(132, 27);
             this.label_Description.TabIndex = 4;
+            this.label_Description.Text = "Описание:";
             // 
             // label_WindSpeed
             // 
             this.label_WindSpeed.AutoSize = true;
             this.label_WindSpeed.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label_WindSpeed.Location = new System.Drawing.Point(78, 352);
+            this.label_WindSpeed.Location = new System.Drawing.Point(40, 284);
             this.label_WindSpeed.Name = "label_WindSpeed";
-            this.label_WindSpeed.Size = new System.Drawing.Size(0, 27);
+            this.label_WindSpeed.Size = new System.Drawing.Size(199, 27);
             this.label_WindSpeed.TabIndex = 5;
+            this.label_WindSpeed.Text = "Скорость ветра:";
             // 
-            // Main_Form
+            // Weather_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(638, 344);
             this.Controls.Add(this.label_WindSpeed);
             this.Controls.Add(this.label_Description);
             this.Controls.Add(this.label_Temperature);
             this.Controls.Add(this.button_RefreshWeather);
             this.Controls.Add(this.richTextBox_NameOfCity);
             this.Controls.Add(this.label_Enter_NameOfCity);
-            this.Name = "Main_Form";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Weather_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Weather_application";
             this.Load += new System.EventHandler(this.Main_Form_Load);
